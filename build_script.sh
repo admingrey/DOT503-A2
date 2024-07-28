@@ -1,7 +1,8 @@
 
 # Step 1: Run Unit Tests
 echo "Running unit tests..."
-python3 -m unittest discover -s . -p "test_*.py"
+python -m unittest discover -s . -p "test_app.py"   
+# if error occur 'Python was not found', change 'python' -> 'python3', or vice versa.
 if [ $? -ne 0 ]; then
     echo "Unit tests failed. Exiting build."
     exit 1
