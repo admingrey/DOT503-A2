@@ -1,7 +1,30 @@
+DOT503_Assessment 2
+=============
+This is a simple project demonstrating the implementation of source control, unit testing, and build automation using Git, GitHub, and a build script.
+
+Project Description
+====================
+This project consists of a simple application written in Python. The primary objective is to showcase the integration of source control, unit testing, and build automation in a software development workflow.
+
+Features:
+- Source control using Git and GitHub
+- Unit testing using the Python unittest framework
+- Automated build script for compiling, testing, and packaging the application
+
+Project Structure
+=================
+The project includes the following files:
+- simple_app.py: Main application file
+- test_app.py: Unit tests for the application
+- build_script.ps1: PowerShell script for automating the build process using powershell terminal
+- build_script.sh: Shell script for automating the build process using git bash terminal
+- Readme.txt: Instructions and description of the simple project
+
+
 Build Script Instructions
 =========================
 
-This project includes a build script to automate the process of testing and packaging the application.
+This project includes a build scripts to automate the process of testing and packaging the application.
 
 To run the build script, follow these steps:
 
@@ -10,7 +33,7 @@ To run the build script, follow these steps:
    - On Windows, you can download and install WinRAR from the official website.
    - Add the WinRAR installation directory (e.g., `C:\Program Files\WinRAR`) to the PATH environment variable (system variables).
 3. Open VS Code and navigate to the project directory.
-4. Open the integrated terminal in VS Code (`View` > `Terminal` or press `` Ctrl+` ``).
+4. Open the integrated terminal in VS Code ('View' > 'Terminal' or press `` Ctrl+` ``).
 5. Make the build script executable (only necessary on Unix-like systems):
    chmod +x build_script.sh
 6. Run the build script:
