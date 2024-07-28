@@ -12,7 +12,7 @@ fi
 
 # Step 2: Package the application
 echo "Packaging the application..."
-rar a simple-app.rar simple_app.py test_app.py
+rar a output_simple-app.rar simple_app.py test_app.py
 if [ $? -ne 0 ]; then
     echo "Packaging failed. Exiting build."
     exit 1

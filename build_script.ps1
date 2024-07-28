@@ -10,7 +10,7 @@ if ($LASTEXITCODE -ne 0) {
 
 # Step 2: Package the application
 Write-Output "Packaging the application..."
-& "C:\Program Files\WinRAR\rar.exe" a simple-app.rar simple_app.py test_app.py
+& "C:\Program Files\WinRAR\rar.exe" a output_simple-app.rar simple_app.py test_app.py
 if ($LASTEXITCODE -ne 0) {
     Write-Output "Packaging failed. Exiting build."
     exit 1
