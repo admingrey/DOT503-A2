@@ -1,3 +1,5 @@
+#!/bin/bash
+# this code is intended to run from "Git Bash" 
 
 # Step 1: Run Unit Tests
 echo "Running unit tests..."
@@ -10,7 +12,7 @@ fi
 
 # Step 2: Package the application
 echo "Packaging the application..."
-zip -r simple-app.zip simple_app.py test_app.py
+rar a simple-app.rar simple_app.py test_app.py
 if [ $? -ne 0 ]; then
     echo "Packaging failed. Exiting build."
     exit 1
