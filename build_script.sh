@@ -18,4 +18,4 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-echo "Build completed successfully." 
+echo "Build completed successfully!" 
