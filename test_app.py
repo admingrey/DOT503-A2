@@ -26,7 +26,7 @@ class TestApp(unittest.TestCase):
         self.assertEqual(hello_devops(), "Welcome to DevOps Tools class!")  # Fail
 
     def test_fail_add_func(self):
-        self.assertEqual(add_function(1, 2), 3)  # Fail
+        self.assertEqual(add_function(1, 2),3 )  # Fail
 
 if __name__ == "__main__":
     unittest.main()
